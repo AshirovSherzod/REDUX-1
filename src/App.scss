@@ -1,0 +1,54 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #0f0f0f;
+    gap: 20px;
+
+    // margin-bottom: 100px;
+    &__btns {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    &__title {
+        font-size: 100px;
+        color: #fff;
+    }
+
+    &__plus,
+    &__minus {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        button {
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: ;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        input {
+            height: 30px;
+            padding-left: 10px;
+            outline: none;
+        }
+    }
+
+    &__reset {
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+}
